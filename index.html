@@ -304,17 +304,23 @@ footer p {
          #home {
         padding: 60px 20px;
     }
-        #navbar {
+         #navbar {
     flex-direction: row;
     padding: 5px 10px;
-    }
-       #navbar ul {
+    width: 100%;
+    box-sizing: border-box;
+}
+        #navbar ul {
     flex-direction: row;
     align-items: center;
-    gap: 8px;
+    gap: 5px;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
 }
 #navbar ul li a {
-    font-size: 13px;
+    font-size: 11px;
+    white-space: nowrap;
 }
 }
 .service-box:hover {
